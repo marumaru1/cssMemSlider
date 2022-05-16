@@ -14,7 +14,7 @@ body {
 }
 
 header, main, footer {
-    padding: 3vh 8vw;
+    padding: 1vh 8vw;
 
     font-size: 20px;
     color: rgb(255, 92, 231);
@@ -27,6 +27,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: auto;
+    column-gap: 30px;
 }
 
 .footer_link {
@@ -66,10 +67,11 @@ footer {
     height: 35rem;
 }
 
-.descriptions_switch {
+.descriptions_switchs {
     display: flex;
     align-items: center;
     justify-content: space-between;
+ 
 }
 
 .all input {
@@ -138,6 +140,8 @@ footer {
 }
 
 .descriptions_images {
+
+
     display: flex;
     width: 100%;
     min-width: 100%;
@@ -258,4 +262,5 @@ footer {
     .all {
         width: 90vw;
     }
+    
 }
