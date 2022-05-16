@@ -23,10 +23,10 @@ header, main, footer {
 
 footer {
     display: flex;
-    padding: 0 30vw;
+
     align-items: center;
     justify-content: space-between;
-    column-gap: 90px;
+    width: auto;
 }
 
 .footer_link {
